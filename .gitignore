@@ -1,0 +1,27 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# Credentials and private keys
+.terraformrc
+terraform.rc
+.aws/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# Logs and generated output
+*.log
+logs.txt
+public_instance_info.txt
+productos*.txt
+
+# Downloaded files
+*.zip
